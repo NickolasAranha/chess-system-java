@@ -29,4 +29,22 @@ public class ChessPosition {
 		return "" + column + row;
 	}
 
+	public char getColumn() {
+		return column;
+	}
+
+	public void setColumn(char column) {
+		this.column = column;
+	}
+
+	public int getRow() {
+		return row;
+	}
+
+	public void setRow(int row) {
+		this.row = row;
+	}
+	
+	
+
 }
